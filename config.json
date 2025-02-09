@@ -35,36 +35,36 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "61567301076941",
-    "100086680386976",
-    "100082395531611",
-    "100000654976375"
+    "100057845471745",
+    "61570740865510",
+    "100074072136322",
+    "100081444250426"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [
-      "61567301076941",
-      "100082395531611",
-      "100086680386976",
-      "100000654976375"
+      "100057845471745",
+      "100081444250426",
+      "100074072136322",
+      "61570740865510"
       
     ],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "☆𝐀𝐁𝐇𝐑𝐀𝐍𝐈𝐋☆ BOT",
+  "nickNameBot": "𝐌𝐔𝐍-𝐁𝐎𝐓 💀",
   "prefix": "/",
   "BaYjidnapi": "",
   "api": "",
   "api2": "",
   "api3": "",
-  "authorName": "Ullash ッ",
-  "facebook2": "https://www.facebook.com/100000654976375",
-  "facebook": "https://www.facebook.com/100086680386976",
-  "email": "ullash263@gmail.com",
-  "replit": "https://replit.com/@ullash264",
+  "authorName": "MD KHAIRUL ISLAM MOSADDEK",
+  "facebook2": "https://www.facebook.com/100057845471745",
+  "facebook": "https://www.facebook.com/100057845471745",
+  "email": "bhaimosaddek@gmail.com",
+  "replit": "https://replit.com/@mun-bot",
   "github": "Find out.",
   "insta": "no",
-  "age": "21+",
+  "age": "18++",
   "TG": "",
   "database": {
     "type": "sqlite",
