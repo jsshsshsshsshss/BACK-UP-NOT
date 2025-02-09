@@ -15,17 +15,17 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const authorName = " ᑘᒪᒪᗩSᕼ ッ ";
-		const ownAge = "『 21 』";
-		const messenger = "https://m.me/61567301076941";
-		const authorFB = "https://www.facebook.com/profile.php?id=100000654976375";
+		const authorName = " MD KHAIRUL ISLAM MOSADDEK ッ ";
+		const ownAge = "『 18+ 』";
+		const messenger = "https://m.me/100057845471745";
+		const authorFB = "https://www.facebook.com/profile.php?id=100057845471745";
 		const authorNumber = "এইটা পার্সোনাল";
 		const Status = "complicated";
 		const urls = [
-"https://i.imgur.com/zLH9Akq.jpeg",
-"https://i.imgur.com/yFGI6sF.jpeg",
-"https://i.imgur.com/YIXBEo7.jpeg",
-"https://i.imgur.com/1bKCteB.jpeg"
+"https://i.imgur.com/eV4XRDs.gif",
+"https://i.imgur.com/eV4XRDs.gif",
+"https://i.imgur.com/eV4XRDs.gif",
+"https://i.imgur.com/eV4XRDs.gif"
 ];
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Jakarta');
