@@ -7,7 +7,7 @@ module.exports = {
     countDown: 10,
     role: 0,
     shortDescription: {
-      en: "hello goatbot inbox no prefix file enjoy the cmmand @ArYan"
+      en: "hello goatbot inbox no prefix file enjoy the command @ArYan"
     },
     longDescription: {
       en: ""
@@ -28,8 +28,8 @@ module.exports = {
   onStart: async function({ api, event, args, message }) {
     try {
       const query = encodeURIComponent(args.join(' '));
-      message.reply("✅ SUCCESSFULLY SEND MSG\n\n🔰তোর ইনবক্স চেক কর , গালি দিছি 🐸🤝", event.threadID);
-      api.sendMessage("✅ SUCCESSFULLY ALLOW\n🔰 কিরে বোকাচোদা ইনবক্স এ আসতে বললি কেনো ,কি বলবি বল 🙂", event.senderID);
+      message.reply("✅ **মেসেজ পাঠানো হলো!**\n\n🔰 **তোর ইনবক্স চেক কর, ধইরা ধইরা গালি দিছি!** 🐸🤝", event.threadID);
+      api.sendMessage("✅ **তোর নামে কেস ফাইল খোলা হলো!**\n🔰 **কিরে বোকাচোদা! তোর মনে কি লুল্লা নাচতেছে? ক্যান ইনবক্সে ডাকলি? এখন যা বলার বল!** 🤡", event.senderID);
     } catch (error) {
       console.error("Error bro: " + error);
     }
