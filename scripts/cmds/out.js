@@ -4,9 +4,9 @@ const request = require("request");
 module.exports = {
 	config: {
 		name: "Out",
-		aliases: ["l"],
+		aliases: ["left"],
 		version: "1.0",
-		author: "Sandy",
+		author: "Ullash ッ",
 		countDown: 5,
 		role: 2,
 		shortDescription: "bot will leave gc",
@@ -25,6 +25,6 @@ module.exports = {
  } else {
  id = parseInt(args.join(" "));
  }
- return api.sendMessage('bot leave the group', id, () => api.removeUserFromGroup(api.getCurrentUserID(), id))
+ return api.sendMessage('▣আমি MUn  বট আপনাদের গ্রুপ থেকে লিভ 𝗟𝗘𝗔𝗩𝗘 নিচ্ছি:\n》আমি মেসেঞ্জার চ্যাট বট , আমাকে আপনাদের বিনোদন দেওয়ার জন্য বানানো হয়েছে। আমার কথায় যদি কেউ মনে কষ্ট পেয়ে থাকেন, তাহলে আমাকে ক্ষমা করে দিবেন 🙂 .\n\n🎵 ⇆ㅤ◁ㅤ ❚❚ㅤ ▷ㅤ↻\n\n➤সবাই নিজের খেয়াল রাখবেন, আল্লাহ হাফেজ 🌺', id, () => api.removeUserFromGroup(api.getCurrentUserID(), id))
 		}
 	};
