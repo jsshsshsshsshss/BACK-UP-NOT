@@ -1,4 +1,4 @@
-const axios = require("axios");
+/cmd install 4k.js const axios = require("axios");
 
 module.exports = {
   config: {
@@ -40,4 +40,4 @@ module.exports = {
       }
     });
   }
-};
+}; 
