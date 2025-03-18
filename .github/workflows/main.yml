@@ -1,26 +1,25 @@
 name: Node.js CI
 
 on:
-  workflow_dispatch:
-  
+  push:
+    branches: [ main ]  # main ব্রাঞ্চে পুশ করলে রান হবে
+  pull_request:
+    branches: [ main ]  # main ব্রাঞ্চে পুল রিকুয়েস্ট করলে রান হবে
 
 jobs:
   build:
-
-
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-version: [16.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+        node-version: [16.x]  # Node.js 16.x ভার্সন ব্যবহার করবে
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2  # রিপোজিটরি কোড চেকআউট করে
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v2  # Node.js সেটআপ করে
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm install
-    - run: npm start
+        cache: 'npm'  # npm ক্যাশে ব্যবহার করে
+    - run: npm install  # ডিপেন্ডেন্সি ইনস্টল করে
+    - run: npm start    # অ্যাপ্লিকেশন চালায়
